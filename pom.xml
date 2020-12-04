@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example.angular</groupId>
-	<artifactId>springboot-angular-docker</artifactId>
+	<artifactId>springboot-crud-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-angular-docker</name>
+	<name>springboot-crud-api</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
