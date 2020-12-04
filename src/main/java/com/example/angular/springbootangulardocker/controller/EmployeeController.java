@@ -1,8 +1,9 @@
-package com.example.angular.springbootangulardocker.controller;
+package com.example.angular.springbootcrudapi.controller;
 
-import com.example.angular.springbootangulardocker.ResourceNotFoundException;
-import com.example.angular.springbootangulardocker.model.Employee;
-import com.example.angular.springbootangulardocker.repository.EmployeeRepository;
+import com.example.angular.springbootcrudapi.ResourceNotFoundException;
+import com.example.angular.springbootcrudapi.model.Employee;
+import com.example.angular.springbootcrudapi.repository.EmployeeRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -66,4 +67,3 @@ public class EmployeeController {
         return response;
     }
 }
-
